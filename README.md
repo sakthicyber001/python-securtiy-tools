@@ -21,10 +21,10 @@ python3 password_checker.py
 text
 Enter a password: Test@1234
 Password strength: Strong
-🛠️Technologies
+## 🛠️Technologies
 Python
 Cybersecurity Fundamentals
-📚 Learning Goals
+## 📚 Learning Goals
 This project helps me practice Python programming and understand basic password security concepts.
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 This project is created for educational purposes only.
