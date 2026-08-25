@@ -14,5 +14,17 @@ A simple Python program that checks password strength based on:
 
 ## ▶️ How to Run
 
-```bash
+bash
 python3 password_checker.py
+## 💻 Example
+
+text
+Enter a password: Test@1234
+Password strength: Strong
+🛠️Technologies
+Python
+Cybersecurity Fundamentals
+📚 Learning Goals
+This project helps me practice Python programming and understand basic password security concepts.
+⚠️ Disclaimer
+This project is created for educational purposes only.
