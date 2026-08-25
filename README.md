@@ -42,3 +42,19 @@ Enter IP address or hostname: 127.0.0.1
 ## Scanning 127.0.0.1...
 Port 22: OPEN
 Port 80: OPEN
+## 🔐 SHA-256 Hash Generator
+
+A simple Python tool that generates a SHA-256 hash from user-provided text.
+
+### How to Run
+
+bash
+python3 hash_generator.py
+## Example
+Enter text to hash: Hello
+SHA-256 Hash:
+185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969
+## Technologies
+Python
+hashlib
+SHA-256
