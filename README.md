@@ -98,3 +98,30 @@ Global: False
 Python
 ipaddress
 Networking fundamentals
+## 📊 Log Analyzer
+
+A simple Python tool that analyzes a log file and counts errors and warnings.
+
+### Features
+
+- Counts total log lines
+- Detects ERROR messages
+- Detects WARNING messages
+- Displays a simple analysis summary
+
+### How to Run
+
+bash
+python3 log_analyzer.py
+## Example
+Enter log file name: sample.log
+
+Log Analysis
+------------
+Total lines: 10
+Errors: 2
+Warnings: 3
+## Technologies
+Python
+File handling
+Log analysis
