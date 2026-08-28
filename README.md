@@ -58,3 +58,16 @@ SHA-256 Hash:
 Python
 hashlib
 SHA-256
+## 📁 File Hash Checker
+
+A simple Python tool that generates a SHA-256 hash for a file.
+
+### How to Run
+
+bash
+python3 file_hash_checker.py
+## Example
+Enter file name: example.txt
+
+SHA-256 File Hash:
+<generated SHA-256 hash>
