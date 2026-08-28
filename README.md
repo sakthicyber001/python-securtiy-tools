@@ -1,8 +1,12 @@
-# Python Security Tools
+# 🔐 Python Security Tools
 
-Beginner cybersecurity tools built with Python.
+Beginner-friendly cybersecurity tools built with Python.
 
-## 🔐 Password Strength Checker
+This project contains simple cybersecurity tools created for learning and practicing Python programming and cybersecurity fundamentals.
+
+---
+
+## 🔑 Password Strength Checker
 
 A simple Python program that checks password strength based on:
 
@@ -12,116 +16,193 @@ A simple Python program that checks password strength based on:
 - Numbers
 - Special characters
 
-## ▶️ How to Run
+### ▶️ How to Run
 
-bash
+```bash
 python3 password_checker.py
-## 💻 Example
+```
 
-text
+### 💻 Example
+
+```text
 Enter a password: Test@1234
 Password strength: Strong
-## 🛠️Technologies
-Python
-Cybersecurity Fundamentals
-## 📚 Learning Goals
-This project helps me practice Python programming and understand basic password security concepts.
-## ⚠️ Disclaimer
-This project is created for educational purposes only.
+```
+
+---
+
 ## 🔎 Port Scanner
 
 A simple Python tool that scans ports 1-100 and identifies open ports.
 
-### How to Run
+### ▶️ How to Run
 
-bash
+```bash
 python3 port_scanner.py
-## Example
+```
+
+### 💻 Example
+
+```text
 Enter IP address or hostname: 127.0.0.1
 
-## Scanning 127.0.0.1...
+Scanning 127.0.0.1...
+
 Port 22: OPEN
 Port 80: OPEN
+```
+
+---
+
 ## 🔐 SHA-256 Hash Generator
 
 A simple Python tool that generates a SHA-256 hash from user-provided text.
 
-### How to Run
+### ▶️ How to Run
 
-bash
+```bash
 python3 hash_generator.py
-## Example
+```
+
+### 💻 Example
+
+```text
 Enter text to hash: Hello
+
 SHA-256 Hash:
 185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969
-## Technologies
-Python
-hashlib
-SHA-256
+```
+
+### 🛠️ Technologies
+
+- Python
+- hashlib
+- SHA-256
+
+---
+
 ## 📁 File Hash Checker
 
 A simple Python tool that generates a SHA-256 hash for a file.
 
-### How to Run
+### ▶️ How to Run
 
-bash
+```bash
 python3 file_hash_checker.py
-## Example
+```
+
+### 💻 Example
+
+```text
 Enter file name: example.txt
 
 SHA-256 File Hash:
-<generated SHA-256 hash>
-## 🌐 IP Address Checker
+[Generated hash]
+```
 
-A simple Python tool that validates an IP address and displays basic information.
+### 🛠️ Technologies
 
-### Features
+- Python
+- hashlib
+- File handling
+- SHA-256
 
-- Validates IPv4 and IPv6 addresses
-- Shows IP version
-- Checks whether the IP is private
-- Checks whether the IP is global
+---
 
-### How to Run
-
-bash
-python3 ip_checker.py
-## Example
-Enter an IP address: 127.0.0.1
-
-Valid IP Address
-IP: 127.0.0.1
-Version: 4
-Private: True
-Global: False
-## Technologies
-Python
-ipaddress
-Networking fundamentals
 ## 📊 Log Analyzer
 
 A simple Python tool that analyzes a log file and counts errors and warnings.
 
-### Features
+### ✨ Features
 
 - Counts total log lines
 - Detects ERROR messages
 - Detects WARNING messages
 - Displays a simple analysis summary
 
-### How to Run
+### ▶️ How to Run
 
-bash
+```bash
 python3 log_analyzer.py
-## Example
+```
+
+### 💻 Example
+
+```text
 Enter log file name: sample.log
 
 Log Analysis
-------------
+
 Total lines: 10
 Errors: 2
 Warnings: 3
-## Technologies
-Python
-File handling
-Log analysis
+```
+
+### 🛠️ Technologies
+
+- Python
+- File handling
+- Log analysis
+
+---
+
+## 🌐 URL Checker
+
+A simple Python tool that checks whether a URL has a valid format.
+
+### ▶️ How to Run
+
+```bash
+python3 url_checker.py
+```
+
+### 💻 Example
+
+```text
+Enter URL: https://example.com
+
+Valid URL
+```
+
+### 🛠️ Technologies
+
+- Python
+- URL validation
+- Regular expressions
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3
+- Python Standard Library
+- Networking fundamentals
+- Cryptographic hashing
+- File handling
+- Log analysis
+- URL validation
+- Cybersecurity fundamentals
+
+---
+
+## 📚 Learning Goals
+
+This project helps me practice:
+
+- Python programming
+- Networking fundamentals
+- Cryptographic hashing
+- File integrity concepts
+- File handling
+- Log analysis
+- URL validation
+- Basic cybersecurity concepts
+- Security automation
+
+---
+
+## ⚠️ Disclaimer
+
+This project is created for educational purposes only.
+
+Use these tools only on systems, files, and networks that you own or have permission to test.
