@@ -71,3 +71,30 @@ Enter file name: example.txt
 
 SHA-256 File Hash:
 <generated SHA-256 hash>
+## 🌐 IP Address Checker
+
+A simple Python tool that validates an IP address and displays basic information.
+
+### Features
+
+- Validates IPv4 and IPv6 addresses
+- Shows IP version
+- Checks whether the IP is private
+- Checks whether the IP is global
+
+### How to Run
+
+bash
+python3 ip_checker.py
+## Example
+Enter an IP address: 127.0.0.1
+
+Valid IP Address
+IP: 127.0.0.1
+Version: 4
+Private: True
+Global: False
+## Technologies
+Python
+ipaddress
+Networking fundamentals
